@@ -1,4 +1,4 @@
-#!/bin/python3.6
+#!/bin/python3.7
 
 import argparse
 import pprint as pp

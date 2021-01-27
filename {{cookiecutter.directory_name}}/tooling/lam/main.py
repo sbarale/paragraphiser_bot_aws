@@ -196,7 +196,7 @@ class Lam(object):
             for lib in ['lib','lib64']:
                 # TODO: don't hard code 3.6
                 for package_dir_name in ['site-packages', 'dist-packages']:
-                    package_dir = os.path.join(this_lambda_dir,'env',lib,'python3.6',package_dir_name)
+                    package_dir = os.path.join(this_lambda_dir,'env',lib,'python3.7',package_dir_name)
                     for dirname, subdirs, files in os.walk(package_dir):
                         for filename in files:
                             absname = os.path.abspath(os.path.join(dirname, filename))

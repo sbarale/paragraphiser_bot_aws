@@ -1,4 +1,4 @@
-#!/bin/python3.6
+#!/bin/python3.7
 # TODO: move this colour stuff into another file
 # just to make things more neat and managable
 class colours:
