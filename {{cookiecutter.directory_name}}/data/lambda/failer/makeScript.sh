@@ -16,7 +16,7 @@ fi
 # fi
 
 rm -rf env
-virtualenv -p /usr/bin/python3.7 ./env
+virtualenv -p /usr/bin/python3 ./env
 . env/bin/activate
 # pip install nose
 pip install boto3
