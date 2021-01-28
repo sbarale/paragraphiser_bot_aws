@@ -1,8 +1,8 @@
 {
-    "bot_name": "MyFirstBot",
-    "aws_region": "us-east-1",
+    "bot_name": "redditbot",
+    "aws_region": "us-west-1",
     "directory_name": "{{cookiecutter.bot_name}}",
-    "email_for_alerts": "someone@example.com",
+    "email_for_alerts": "tools@smx.social",
     "reddit_client_id": "",
     "reddit_client_secret": "",
     "reddit_password": "",
